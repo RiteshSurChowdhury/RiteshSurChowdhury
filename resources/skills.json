@@ -1,0 +1,26 @@
+[
+    {
+        "logo":"./images/Java.png"
+    },
+    {
+        "logo":"./images/SpringBoot.png"
+    },
+    {
+        "logo":"./images/RestAPI.png"
+    },
+    {
+        "logo":"./images/HTML.png"
+    },
+    {
+        "logo":"./images/CSS.png"
+    },
+    {
+        "logo":"./images/JavaScript.png"
+    },
+    {
+        "logo":"./images/MySQL.png"
+    },
+    {
+        "logo":"./images/DSA.png"
+    }
+]

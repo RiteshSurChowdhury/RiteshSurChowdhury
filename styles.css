@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat:wght@500&family=Comfortaa:wght@500&family=Dancing+Script&family=Fascinate&family=Fuzzy+Bubbles&family=Kanit:wght@200&family=Klee+One&family=Labrada:wght@400&family=Lato:wght@300&family=Lobster&family=Merriweather:wght@300&family=Nunito:wght@300&family=Pacifico&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Satisfy&family=Titillium+Web:wght@300&family=Ubuntu&display=swap");
+:root {
+  --main-fg-color: black;
+  --main-bg-color: white;
+  --main-font-family: Titillium Web;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--main-bg-color);
+  font-family: var(--main-font-family);
+}
+
+.custom-text-color {
+  color: var(--main-fg-color);
+}
+
+.custom-bg {
+  background: var(--main-bg-color);
+  border: 0px solid var(--main-bg-color);
+  border-left: 2px solid white;
+  border-radius: 0;
+}
+
+.custom-navbar {
+  background: #333;
+}
+
+.navbar {
+  background: lightgray;
+}
+
+.nav-link {
+  color: rgb(7, 75, 75);
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.nav-item a:hover {
+  transition: all 0.2s ease;
+  color: darkcyan;
+  text-decoration: underline 5px;
+  text-underline-position: under;
+  text-underline-offset: 22px;
+}
+#nav-btn {
+  font-size: 30px;
+}
+
+#nav-btn i {
+  border: 0px;
+}
+
+.my-pic {
+  height: 19rem;
+  width: 19rem;
+  border-radius: 0;
+  border: 2px solid white;
+}
+
+#introduction {
+  width: 100%;
+  height: 95vh;
+  margin-top: 30px;
+  background-image: url(./images/portfolio-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-text {
+  font-size: 20px;
+}
+
+.my-text a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.my-text a:hover {
+  color: dodgerblue;
+  transition: all 0.3s ease;
+}
+
+.education {
+  width: 60%;
+}
+
+#profile img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  padding-top: 15px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #introduction {
+    padding: 2rem;
+  }
+
+  #introduction .my-text {
+    font-size: 14px;
+  }
+
+  .my-pic {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .my-btn {
+    justify-content: center;
+    margin-right: 0%;
+    top: 15vh;
+  }
+
+  .my-btn {
+    margin-top: 2rem;
+    font-size: 13px;
+  }
+
+  .nav-item a:hover {
+    text-decoration: none;
+  }
+
+  .education {
+    width: 90%;
+  }
+}

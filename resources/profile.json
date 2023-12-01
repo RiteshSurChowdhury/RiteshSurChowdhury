@@ -1,0 +1,18 @@
+[
+    {
+        "link":"https://www.linkedin.com/in/ritesh-sur-chowdhury-a33507204/",
+        "logo":"./images/Leetcode.png"
+    },
+    {
+        "link":"https://scholar.google.com/citations?hl=en&user=rdvSEjoAAAAJ",
+        "logo":"./images/Codeforces.png"
+    },
+    {
+        "link":"https://www.researchgate.net/profile/Ritesh-Sur-Chowdhury-2",
+        "logo":"./images/Codechef.webp"
+    },
+    {
+        "link":"https://github.com/RiteshSurChowdhury",
+        "logo":"./images/GitHub.png"
+    }
+]

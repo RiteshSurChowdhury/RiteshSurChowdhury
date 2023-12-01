@@ -1,0 +1,41 @@
+[
+    {
+        "name":"MultiScale Probability Map guided Index Pooling with Attention-based learning for Road and Building Segmentation",
+        "description":"This project is a fullstack e-commerce website featuring CRUD operations, authentication, authorization, filtering, shopping cart, order tracking, and product reviews. It is implemented using Java, Spring Boot, React JS and MySQL.",
+        "projectDetailsLink":"https://www.youtube.com/watch?v=DdTnjtAAVc4&t=1s",
+        "githubLink":[
+            {
+                "link":"https://github.com/shirshabose/MSSDMPA-Net"
+            }
+        ],
+        "websiteLink":"",
+        "logo":"./images/E_commerce.png"
+
+    },
+    {
+        "name":"Dense Dilated Multi-Scale Supervised Attention-Guided Network for histopathology image segmentation",
+        "description":"This project is a travel blog website featuring CRUD operations, user interactions, authentication, authorization, and an admin panel. It utilizes Java, Spring Boot, HTML, CSS, Bootstrap, and MySQL for development.",
+        "projectDetailsLink":"https://www.youtube.com/watch?v=ELPcKY7Cx_k&t=58s",
+        "githubLink":[
+            {
+                "link":"https://github.com/shirshabose/D2MSA-Net"
+            }
+        ],
+        "websiteLink":"",
+        "logo":"./images/TravelBlog.png"
+        
+    },
+    {
+        "name":"Dense Dilated Deep Multiscale Supervised U-Network for biomedical image segmentation",
+        "description":"This website makes use of a 3rd party API( form Pexel) to fetch images images and videos. It is built using React JS with featurs like search and pagenation.",
+        "projectDetailsLink":"",
+        "githubLink":[
+            {
+                "link":"https://github.com/shirshabose/D3MSUNET"
+            }
+        ],
+        "websiteLink":"https://react-news-app-akash.netlify.app",
+        "logo":"./images/ImageGallery.png"
+    }
+
+]
