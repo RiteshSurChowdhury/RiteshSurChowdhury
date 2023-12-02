@@ -2,11 +2,7 @@
     {
         "name":"MultiScale Probability Map guided Index Pooling with Attention-based learning for Road and Building Segmentation",
         "description":"A HR-Net based attention guided deep learning model with index pooling based downsampling operation for road and building image segmentation. \n Published in: ISPRS Journal of Photogrammetry and Remote Sensing",
-        "githubLink":[
-            {
-                "link":"https://github.com/shirshabose/MSSDMPA-Net"
-            }
-        ],
+        "githubLink":"https://github.com/shirshabose/MSSDMPA-Net",
         "websiteLink":"https://www.sciencedirect.com/science/article/pii/S0924271623003088?dgcid=coauthor",
         "logo":"./images/Fig2_model.png"
 
@@ -14,22 +10,14 @@
     {
         "name":"Dense Dilated Deep Multiscale Supervised U-Network for biomedical image segmentation",
         "description":"An U-Net based deep learning model for biomedical image segmentation. Published in: Computers in Biology Medicine.",
-        "githubLink":[
-            {
-                "link":"https://github.com/shirshabose/D3MSUNET"
-            }
-        ],
+        "githubLink":"https://github.com/shirshabose/D3MSUNET",
         "websiteLink":"https://www.sciencedirect.com/science/article/abs/pii/S001048252200066X",
         "logo":"./images/cibm3.png"
     },
     {
         "name":"Dense Dilated Multi-Scale Supervised Attention-Guided Network for histopathology image segmentation",
         "description":"An U-Net based attention guided deep learning model for histopathology image segmentation. \n Published in: Computers in Biology Medicine.",
-        "githubLink":[
-            {
-                "link":"https://github.com/shirshabose/D2MSA-Net"
-            }
-        ],
+        "githubLink":"https://github.com/shirshabose/D2MSA-Net",
         "websiteLink":"https://www.sciencedirect.com/science/article/abs/pii/S0010482523006479",
         "logo":"./images/full_model.png"
         
@@ -37,55 +25,35 @@
     {
         "name":"Performance analysis and optimization of a hybrid tsr-psr protocol for af, df and hybrid af–df relaying under weibull fading",
         "description":"Proposed and optimized a hybrid TSR-PSR protocol for af, df and hybrid AF-DF relaying communication network. \n Published in: Telecommunication Systems.",
-        "githubLink":[
-            {
-                "link":""
-            }
-        ],
+        "githubLink":"",
         "websiteLink":"https://link.springer.com/article/10.1007/s11235-022-00967-2",
         "logo":"./images/System model.png"
     },
     {
         "name":"Decoding the creative ability of subjects from aesthetic quality assessment using dual convolution induced capsule networ",
         "description":"A dual convolution based deep learning network for EEG signal classification. \n Published in: SSCI Conference.",
-        "githubLink":[
-            {
-                "link":""
-            }
-        ],
+        "githubLink":"",
         "websiteLink":"https://ieeexplore.ieee.org/abstract/document/10022170",
         "logo":"./images/SSCI.png"
     },
     {
         "name":"An area efficient vlsi architecture for 1-d and 2-d discrete wavelet transform (dwt) and inverse discrete wavelet transform (idwt)",
         "description":"A VLSI architecture for 1-D and 2-D DWT and IDWT implemented in FPGA board. \n Published in: DevIC Conference.",
-        "githubLink":[
-            {
-                "link":""
-            }
-        ],
+        "githubLink":"",
         "websiteLink":"https://ieeexplore.ieee.org/abstract/document/9455902",
         "logo":"./images/DWT.png"
     },
     {
         "name":"A cost-effective tracking and health monitoring system for suspected covid-19 patient in quarantine",
         "description":"An arduino based health monitoring system cure patients designed for COVID-19 pandemic. \n Published in: Micro Conference.",
-        "githubLink":[
-            {
-                "link":""
-            }
-        ],
+        "githubLink":"",
         "websiteLink":"https://link.springer.com/chapter/10.1007/978-981-99-0412-9_51",
         "logo":"./images/covid 19 tracking.jpg"
     },
     {
         "name":"An android-application-controlled car for human safety against covid-19",
         "description":"An arduino based application controlled car system designed for COVID-19 pandemic. \n Published in: ICIA Conference.",
-        "githubLink":[
-            {
-                "link":""
-            }
-        ],
+        "githubLink":"",
         "websiteLink":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rdvSEjoAAAAJ&citation_for_view=rdvSEjoAAAAJ:9yKSN-GCB0IC",
         "logo":"./images/covid 19.jpg"
     }

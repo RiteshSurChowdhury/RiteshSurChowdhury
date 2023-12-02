@@ -133,18 +133,15 @@ fetch("resources/projects.json")
             <div class="card-body text-left">
               <h3 class="fw-bold">${project.name}</h3>
               <p class="card-text">${project.description}<p>
-              <span class="badge bg-light text-dark border rounded-0 fs-6 fw-light p-3">
-                <b class="me-2">Github Link(s): </b>
-                ${project.githubLink
-                  .map(
-                    (e, index) =>
-                      `<a href=${
-                        e.link
-                      } target="_blank" class="fw-light me-2">Link${
-                        index + 1
-                      }</a>`
-                  )
-                  .join("")}
+              <span>
+                <b class="me-2"></b>
+                ${
+                  project.githubLink !== ""
+                    ? `<a href=${project.githubLink} target="_blank">
+                        <button class="btn btn-primary rounded-0 p-2 m-1">Github Link</button>
+                      </a>`
+                    : `<span></span>`
+                }
               </span>
               <span>
                 ${
