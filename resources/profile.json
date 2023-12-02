@@ -1,15 +1,15 @@
 [
     {
         "link":"https://www.linkedin.com/in/ritesh-sur-chowdhury-a33507204/",
-        "logo":"./images/Leetcode.png"
+        "logo":"./images/LinkedIn_logo_initials.png"
     },
     {
         "link":"https://scholar.google.com/citations?hl=en&user=rdvSEjoAAAAJ",
-        "logo":"./images/Codeforces.png"
+        "logo":"./images/google-scholar-icon.png"
     },
     {
         "link":"https://www.researchgate.net/profile/Ritesh-Sur-Chowdhury-2",
-        "logo":"./images/Codechef.webp"
+        "logo":"./images/researchgate.svg"
     },
     {
         "link":"https://github.com/RiteshSurChowdhury",

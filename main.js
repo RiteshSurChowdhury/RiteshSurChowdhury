@@ -3,11 +3,12 @@ const skillset = document.getElementById("skillset");
 const profiles = document.getElementById("profile");
 const projectItems = document.getElementById("project-items");
 const experienceItems = document.getElementById("experience-items");
+const awardItems = document.getElementById("award-items");
 const educationItems = document.getElementById("education-items");
 const errorMsg = document.getElementById("error-msg");
 const navBtn = document.getElementById("nav-btn");
 
-const colors = ["darkcyan", "lime", "orangered"];
+const colors = ["black", "lime", "orangered"];
 
 function changeNavIcon() {
   if (navBtn.innerHTML == '<i class="fa fa-times"></i>') {
@@ -48,7 +49,6 @@ fetch("resources/education.json")
           <div class="p-2" style="width: 90%">
             <div class="d-flex justify-content-between">
                 <label class="fs-5 fw-bold custom-text-color">${edu.institutionName}</label>
-                <label class="fs-6 fw-bold pt-2">${edu.institutionType}</label>
             </div >
             <div class="d-flex justify-content-between">
               <p class="fs-6 fw-light mb-0">${edu.degree}</p>
@@ -75,19 +75,41 @@ fetch("resources/experience.json")
           </div>
           <div class="p-2" style="width: 90%">
             <div class="d-flex justify-content-between">
-                <label class="fs-4 fw-bold custom-text-color">${exp.company}</label>
-                <label class="fs-6 fw-bold pt-2">${exp.location}</label>
+                <label class="fs-6 fw-normal custom-text-color">Designation: ${exp.designation}</label>
+                <label class="fs-6 fw-normal pt-2">${exp.location}</label>
             </div>
             <div class="d-flex justify-content-between">
                 <label class="fs-6 fw-normal custom-text-color">Role: ${exp.role}</label>
-                <label class="fs-6 fw-light pt-2">${exp.duration}</label>
+                <label class="fs-6 fw-normal pt-2">${exp.duration}</label>
             </div>
-          </div>
+            </div>
         </li>
       `;
     });
   });
 
+  fetch("resources/award.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((awd, index) => {
+      awardItems.innerHTML += `
+        <li class="list-group-item education mx-auto d-flex justify-content-center border-0">
+          <div class="p-2 pb-3">
+            <img src=${awd.logo} style="height: 6rem; width: 6rem">
+          </div>
+          <div class="p-2" style="width: 90%">
+          <div class="d-flex justify-content-between">
+          <label class="fs-6 fw-bold custom-text-color">${awd.Award}</label>
+          <label class="fs-6 fw-normal custom-text-color">${awd.Date}</label>
+          </div>
+          <div class="d-flex justify-content-between">
+          <label class="fs-6 fw-normal custom-text-color">Rationale: ${awd.Rationale}</label>
+          </div>
+          </div>
+        </li>
+      `;
+    });
+  });
 fetch("resources/skills.json")
   .then((res) => res.json())
   .then((data) => {
@@ -125,13 +147,6 @@ fetch("resources/projects.json")
                   .join("")}
               </span>
               <span>
-                ${
-                  project.projectDetailsLink !== ""
-                    ? `<a href=${project.projectDetailsLink} target="_blank">
-                        <button class="btn btn-primary rounded-0 fs-6 fw-light p-2">Watch Demo</button>
-                      </a>`
-                    : `<span></span>`
-                }
                 ${
                   project.websiteLink !== ""
                     ? `<a href=${project.websiteLink} target="_blank">

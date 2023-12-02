@@ -1,26 +1,32 @@
 [
     {
-        "logo":"./images/Java.png"
+        "logo":"./images/Python-logo-notext.svg"
     },
     {
-        "logo":"./images/SpringBoot.png"
+        "logo":"./images/Matlab_Logo.png"
     },
     {
-        "logo":"./images/RestAPI.png"
+        "logo":"./images/488px-PyTorch_logo_black.svg.png"
     },
     {
-        "logo":"./images/HTML.png"
+        "logo":"./images/TensorFlow.png"
     },
     {
-        "logo":"./images/CSS.png"
+        "logo":"./images/Google_Colaboratory_SVG_Logo.svg"
     },
     {
-        "logo":"./images/JavaScript.png"
+        "logo":"./images/Jupyter_logo.svg"
     },
     {
-        "logo":"./images/MySQL.png"
+        "logo":"./images/vivado.png"
     },
     {
-        "logo":"./images/DSA.png"
+        "logo":"./images/ISE.png"
+    },
+    {
+        "logo":"./images/verilog-logo.svg"
+    },
+    {
+        "logo":"./images/vhdl.png"
     }
 ]
