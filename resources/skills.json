@@ -24,9 +24,9 @@
         "logo":"./images/ISE.png"
     },
     {
-        "logo":"./images/verilog-logo.svg"
+        "logo":"./images/vhdl.png"
     },
     {
-        "logo":"./images/vhdl.png"
+        "logo":"./images/verilog-logo.svg"
     }
 ]
