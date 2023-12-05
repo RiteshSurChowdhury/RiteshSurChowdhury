@@ -30,7 +30,7 @@
         "logo":"./images/System model.png"
     },
     {
-        "name":"Decoding the creative ability of subjects from aesthetic quality assessment using dual convolution induced capsule networ",
+        "name":"Decoding the creative ability of subjects from aesthetic quality assessment using dual convolution induced capsule network",
         "description":"A dual convolution based deep learning network for EEG signal classification. \n Published in: SSCI Conference.",
         "githubLink":"",
         "websiteLink":"https://ieeexplore.ieee.org/abstract/document/10022170",
