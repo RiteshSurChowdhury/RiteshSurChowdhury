@@ -23,6 +23,14 @@
         
     },
     {
+        "name":"Improved DWT and IDWT architectures for image compression",
+        "description":"An improved DWT and IDWT based image compression algorithm with improved compression and reconstruction abilities and its hardware effcient architecture. \n Published in: Microprocessors and Microsystems.",
+        "githubLink":"",
+        "websiteLink":"https://www.sciencedirect.com/science/article/abs/pii/S0141933123002351",
+        "logo":"./images/MPMS_JOURNAL.png"
+        
+    },
+    {
         "name":"Performance analysis and optimization of a hybrid tsr-psr protocol for af, df and hybrid af–df relaying under weibull fading",
         "description":"Proposed and optimized a hybrid TSR-PSR protocol for af, df and hybrid AF-DF relaying communication network. \n Published in: Telecommunication Systems.",
         "githubLink":"",
