@@ -38,6 +38,14 @@
         "logo":"./images/System model.png"
     },
     {
+        "name":"Fpga implementation of compact and low-power multiplierless architectures for dwt and idwt",
+        "description":"A multiplierless DWT and IDWT architecture with less hardware resources. \n Published in: Journal of Real-Time Image Processing.",
+        "githubLink":"",
+        "websiteLink":"https://link.springer.com/article/10.1007/s11554-023-01396-3",
+        "logo":"./images/JRTP_JOURNAL.png"
+        
+    },
+    {
         "name":"Decoding the creative ability of subjects from aesthetic quality assessment using dual convolution induced capsule network",
         "description":"A dual convolution based deep learning network for EEG signal classification. \n Published in: SSCI Conference.",
         "githubLink":"",
