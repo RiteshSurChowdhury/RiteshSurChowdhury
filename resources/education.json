@@ -1,5 +1,14 @@
 [
     {
+        "institutionName":"Indian Institute of Technology (IIT) Bombay",
+        "institutionType":"College",
+        "degree":"MS by Research",
+        "branch": "Data Science & Artificial Intelligence",
+        "score":"CGPA: 9.00*",
+        "duration":"July 2024-Present",
+        "logo":"./images/JadavpurLogo.png"
+    }
+    {
         "institutionName":"Jadavpur University",
         "institutionType":"College",
         "degree":"Bachelor of Engineering (B.E.)",
