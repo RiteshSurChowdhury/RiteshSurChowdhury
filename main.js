@@ -4,6 +4,7 @@ const profiles = document.getElementById("profile");
 const projectItems = document.getElementById("project-items");
 const experienceItems = document.getElementById("experience-items");
 const awardItems = document.getElementById("award-items");
+const competitionsItems = document.getElementById("competitons-items");
 const educationItems = document.getElementById("education-items");
 const errorMsg = document.getElementById("error-msg");
 const navBtn = document.getElementById("nav-btn");
@@ -110,6 +111,30 @@ fetch("resources/experience.json")
       `;
     });
   });
+
+  fetch("resources/competitions.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((comp, index) => {
+      awardItems.innerHTML += `
+        <li class="list-group-item education mx-auto d-flex justify-content-center border-0">
+          <div class="p-2 pb-3">
+            <img src=${comp.logo} style="height: 6rem; width: 6rem">
+          </div>
+          <div class="p-2" style="width: 90%">
+          <div class="d-flex justify-content-between">
+          <label class="fs-6 fw-bold custom-text-color">${comp.Competition}</label>
+          <label class="fs-6 fw-normal custom-text-color">${comp.Date}</label>
+          </div>
+          <div class="d-flex justify-content-between">
+          <label class="fs-6 fw-normal custom-text-color">Rationale: ${comp.Position}</label>
+          </div>
+          </div>
+        </li>
+      `;
+    });
+  });
+
 fetch("resources/skills.json")
   .then((res) => res.json())
   .then((data) => {
