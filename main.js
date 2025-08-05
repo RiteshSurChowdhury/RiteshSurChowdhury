@@ -116,7 +116,7 @@ fetch("resources/experience.json")
   .then((res) => res.json())
   .then((data) => {
     data.forEach((comp, index) => {
-      awardItems.innerHTML += `
+      competitionsItems.innerHTML += `
         <li class="list-group-item education mx-auto d-flex justify-content-center border-0">
           <div class="p-2 pb-3">
             <img src=${comp.logo} style="height: 6rem; width: 6rem">
