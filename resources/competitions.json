@@ -1,16 +1,16 @@
 [
     {
-        "Competition":"Gamethon1.0",
+        "Competition":"Gameathon1.0",
         "Organization": "FIFS",
         "Date": "April, 2025",
         "Position":"1st",
-        "logo":"./images/Gamethon.png"
+        "logo":"./images/Gameathon.png"
     },
     {
-        "Competition":"Gamethon2.0",
+        "Competition":"Gameathon2.0",
         "Organization": "FIFS",
         "Date": "April, 2025",
         "Position":"2nd",
-        "logo":"./images/Gamethon.png"
+        "logo":"./images/Gameathon.png"
     }
 ]
