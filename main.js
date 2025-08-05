@@ -127,7 +127,7 @@ fetch("resources/experience.json")
           <label class="fs-6 fw-normal custom-text-color">${comp.Date}</label>
           </div>
           <div class="d-flex justify-content-between">
-          <label class="fs-6 fw-normal custom-text-color">Rationale: ${comp.Position}</label>
+          <label class="fs-6 fw-normal custom-text-color">Position: ${comp.Position}</label>
           </div>
           </div>
         </li>
