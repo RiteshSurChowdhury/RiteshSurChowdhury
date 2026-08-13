@@ -1,5 +1,20 @@
 [
     {
+        "company":"MBZUAI",
+        "location":"Abu Dhabi, UAE",
+        "duration":"August, 2026-Present",
+        "designation": "Visiting Student",
+        "logo":"./images/mbzuai_logo.png"
+    },
+    {
+        "company":"IBM Research",
+        "location":"Bangalore, India",
+        "role":"Knowledge Graph Assessment",
+        "duration":"May, 2026-August, 2026",
+        "designation": "Research Intern",
+        "logo":"./images/IBMresearch_logo.png"
+    }
+    {
         "company":"Qualcomm",
         "location":"Hyderabad, India",
         "role":"5G System Testing and Automation",
