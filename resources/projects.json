@@ -1,5 +1,13 @@
 [
     {
+        "name":"Scaled Autoregressive Projection Steering (SAPS): Token-level Steering to Induce Sarcasm and Humblebrag in Text",
+        "description":"A token-level steering approach for incongruity-based generation. \n Published in: EMNLP Findings 2026",
+        "githubLink":"https://github.com/SharathHN/saps-steering",
+        "websiteLink":"https://github.com/SharathHN/saps-steering",
+        "logo":"./images/steering.png"
+
+    },
+    {
         "name":"MultiScale Probability Map guided Index Pooling with Attention-based learning for Road and Building Segmentation",
         "description":"A HR-Net based attention guided deep learning model with index pooling based downsampling operation for road and building image segmentation. \n Published in: ISPRS Journal of Photogrammetry and Remote Sensing",
         "githubLink":"https://github.com/shirshabose/MSSDMPA-Net",
