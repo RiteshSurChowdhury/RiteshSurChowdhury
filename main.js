@@ -89,6 +89,44 @@ fetch("resources/experience.json")
     });
   });
 
+
+fetch("resources/projects.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((project, index) => {
+      projectItems.innerHTML += `
+        <div class="col-md-4">
+          <div class="card bg-light border rounded-0 mb-5">
+            <img class="rounded-0" src="${project.logo}" style="height: 14rem">
+            <div class="card-body text-left">
+              <h3 class="fw-bold">${project.name}</h3>
+              <p class="card-text">${project.description}<p>
+              <span>
+                <b class="me-2"></b>
+                ${
+                  project.githubLink !== ""
+                    ? `<a href=${project.githubLink} target="_blank">
+                        <button class="btn btn-primary rounded-0 p-2 m-1">Github Link</button>
+                      </a>`
+                    : `<span></span>`
+                }
+              </span>
+              <span>
+                ${
+                  project.websiteLink !== ""
+                    ? `<a href=${project.websiteLink} target="_blank">
+                        <button class="btn btn-primary rounded-0 p-2 m-1">Visit Website</button>
+                      </a>`
+                    : `<span></span>`
+                }
+              </span>
+            </div>
+          </div>
+        </div>
+        `;
+    });
+  });
+
   fetch("resources/award.json")
   .then((res) => res.json())
   .then((data) => {
@@ -147,42 +185,7 @@ fetch("resources/skills.json")
     });
   });
 
-fetch("resources/projects.json")
-  .then((res) => res.json())
-  .then((data) => {
-    data.forEach((project, index) => {
-      projectItems.innerHTML += `
-        <div class="col-md-4">
-          <div class="card bg-light border rounded-0 mb-5">
-            <img class="rounded-0" src="${project.logo}" style="height: 14rem">
-            <div class="card-body text-left">
-              <h3 class="fw-bold">${project.name}</h3>
-              <p class="card-text">${project.description}<p>
-              <span>
-                <b class="me-2"></b>
-                ${
-                  project.githubLink !== ""
-                    ? `<a href=${project.githubLink} target="_blank">
-                        <button class="btn btn-primary rounded-0 p-2 m-1">Github Link</button>
-                      </a>`
-                    : `<span></span>`
-                }
-              </span>
-              <span>
-                ${
-                  project.websiteLink !== ""
-                    ? `<a href=${project.websiteLink} target="_blank">
-                        <button class="btn btn-primary rounded-0 p-2 m-1">Visit Website</button>
-                      </a>`
-                    : `<span></span>`
-                }
-              </span>
-            </div>
-          </div>
-        </div>
-        `;
-    });
-  });
+
 
 fetch("resources/profile.json")
   .then((res) => res.json())
