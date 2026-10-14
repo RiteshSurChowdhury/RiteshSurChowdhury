@@ -80,7 +80,7 @@ fetch("resources/experience.json")
                 <label class="fs-6 fw-normal pt-2">${exp.location}</label>
             </div>
             <div class="d-flex justify-content-between">
-                <label class="fs-6 fw-normal custom-text-color">Role: ${exp.role}</label>
+                <label class="fs-6 fw-normal custom-text-color">Project Topic: ${exp.project}</label>
                 <label class="fs-6 fw-normal pt-2">${exp.duration}</label>
             </div>
             </div>
