@@ -3,7 +3,7 @@
         "name":"Scaled Autoregressive Projection Steering (SAPS): Token-level Steering to Induce Sarcasm and Humblebrag in Text",
         "description":"A token-level steering approach for incongruity-based generation. \n Published in: EMNLP Findings 2026",
         "githubLink":"https://github.com/SharathHN/saps-steering",
-        "websiteLink":"https://github.com/SharathHN/saps-steering",
+        "websiteLink":"https://aclanthology.org/2026.findings-emnlp.1594/",
         "logo":"./images/steering.png"
 
     },
