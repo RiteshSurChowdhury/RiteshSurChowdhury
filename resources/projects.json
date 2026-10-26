@@ -1,5 +1,11 @@
 [
     {
+        "name":"Domain-Robust PointMamba through Structured Cosine Perturbation",
+        "description":"A perturbation-based spectral module which improves the 3D classification performance in single source domain generalization setting. \n Accepted in: WACV 2027",
+        "logo":"./images/lcpm.png"
+
+    },
+    {
         "name":"Scaled Autoregressive Projection Steering (SAPS): Token-level Steering to Induce Sarcasm and Humblebrag in Text",
         "description":"A token-level steering approach for incongruity-based generation. \n Published in: EMNLP Findings 2026",
         "githubLink":"https://github.com/SharathHN/saps-steering",
